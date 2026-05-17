@@ -45,13 +45,14 @@ a:hover{text-decoration:underline}
 .site-footer{border-top:1px solid rgba(255,255,255,.12);margin-top:2rem}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0;color:var(--muted)}
 .socials{display:flex;gap:.6rem}
+
 @media (max-width:880px){
   main.container.page,
   .hero .container,
   .highlights.container,
   .cta-band .container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .highlights{grid-template-columns:1fr}
