@@ -33,7 +33,7 @@ a:hover{text-decoration:underline}
 .card{background:var(--card);border:1px solid rgba(255,255,255,.12);padding:1rem;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.15)}
 .cta-band{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));border-top:1px solid rgba(255,255,255,.10);border-bottom:1px solid rgba(255,255,255,.10);}
 .cta-inner{padding:2rem 0;text-align:center}
-.page{padding:2rem 0}
+.page{padding:2rem}
 .page h1{margin-top:.2rem}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
 .bullet{line-height:1.8}
@@ -46,13 +46,16 @@ a:hover{text-decoration:underline}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0;color:var(--muted)}
 .socials{display:flex;gap:.6rem}
 @media (max-width:880px){
-  .container {
+  main.container.page,
+  .hero .container,
+  .highlights.container,
+  .cta-band .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
   .highlights{grid-template-columns:1fr}
   .grid-2{grid-template-columns:1fr}
-
 
   .menu{display:block;cursor:pointer}
 
