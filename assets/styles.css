@@ -46,11 +46,14 @@ a:hover{text-decoration:underline}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0;color:var(--muted)}
 .socials{display:flex;gap:.6rem}
 @media (max-width:880px){
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .highlights{grid-template-columns:1fr}
   .grid-2{grid-template-columns:1fr}
 
-  /* Show the hamburger button on mobile.
-     The previous file had this set to display:none, which hid the menu entirely. */
+
   .menu{display:block;cursor:pointer}
 
   .nav{
